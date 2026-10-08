@@ -1,3 +1,7 @@
+:root {
+  --accent-color: oklch(65% 50% 0);
+}
+
 body {
   /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
@@ -8,7 +12,38 @@ body {
   padding: 30px;
 }
 
-.home-img {
+img {
   max-width: 50%;
   height: auto;
+}
+
+nav {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 0em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+}
+
+.current {
+  flex: 1;
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color:  oklch(70% 3% 200);
+  padding-bottom: 0.1em;
+}
+
+.tab {
+  flex: 1;
+}
+
+a:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  padding-bottom: 0.1em;
+  background-color: oklch(from var(--accent-color) 95% 5% h)
 }
