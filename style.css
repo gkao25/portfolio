@@ -47,3 +47,7 @@ a:hover {
   padding-bottom: 0.1em;
   background-color: oklch(from var(--accent-color) 95% 5% h)
 }
+
+label {
+  font: inherit;
+}
