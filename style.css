@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
   h2 {
-    font-size: 40%;
+    font-size: 400%;
   }
 }
 
@@ -43,15 +43,22 @@ nav {
   border-bottom-style: solid;
   border-bottom-color:  oklch(70% 3% 200);
   padding-bottom: 0.1em;
+  font-weight: bold;
 }
 
 .tab {
   flex: 1;
 }
 
+a, a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 a:hover {
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
+  border-bottom-color: var(--accent-color);
   padding-bottom: 0.1em;
   background-color: oklch(from var(--accent-color) 95% 5% h)
 }
@@ -86,4 +93,19 @@ article {
   h2 {
     margin: 0;
   }
+}
+
+.heading-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.heading-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: oklch(80% 3% 200);
 }
