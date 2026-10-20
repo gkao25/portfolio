@@ -1,5 +1,6 @@
 :root {
   --accent-color: oklch(65% 50% 0);
+  color-scheme: light dark;
 }
 
 body {
@@ -28,6 +29,7 @@ img {
 }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
   display: flex;
   text-decoration: none;
   color: inherit;
@@ -36,14 +38,14 @@ nav {
   padding-bottom: 0em;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: oklch(80% 3% 200);
+  border-bottom-color: var(--border-color);
 }
 
 .current {
   flex: 1;
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
-  border-bottom-color:  oklch(70% 3% 200);
+  border-bottom-color: var(--border-color);
   padding-bottom: 0.1em;
   font-weight: bold;
 }
@@ -62,7 +64,7 @@ a:hover {
   border-bottom-style: solid;
   border-bottom-color: var(--accent-color);
   padding-bottom: 0.1em;
-  background-color: oklch(from var(--accent-color) 95% 5% h)
+  background-color: color-mix(in oklch, var(--accent-color), canvas 85%)
 }
 
 form {
@@ -71,10 +73,22 @@ form {
   gap: 1em;
 }
 
-label {
+label.contact-field {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 1/-1;
+}
+
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+}
+
+label.color-scheme select {
+  font-family: inherit;
 }
 
 button {
