@@ -1,1 +1,2 @@
-UCSD DSC 209R Lab 1
+# UCSD DSC 209R 
+GitHub page: [https://gkao25.github.io/portfolio/](https://gkao25.github.io/portfolio/)
