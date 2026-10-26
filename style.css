@@ -23,9 +23,19 @@ h1 {
     text-align: center;
 }
 
-img {
+/* img {
   max-width: 50%;
   height: auto;
+} */
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.intro img {
+  width: 200px;
 }
 
 nav {

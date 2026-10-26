@@ -6,14 +6,26 @@
     <title>Gloria Kao: Personal site and portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="global.js"></script>
+    <script src="index.js" type="module" defer></script>
+
 </head>
 <body>
     <h1>Gloria Kao</h1>
-    <p>
-        I am a student pursuing a master's degree of data science at UCSD. 
-        I specialize in AI and machine learning, and earned my bachelor's degree in data science also at UCSD.
-        This portfolio is made as an assignment for DSC 209R. 
-    </p>
-    <img src="images/grad.jpg" alt="gloria kao graduation photo">
+    <div class="intro">
+        <p>
+            I am a student pursuing a master's degree of data science at UCSD.
+            I specialize in AI and machine learning, and earned my bachelor's degree in data science also at UCSD.
+            This portfolio is made as an assignment for DSC 209R.
+        </p>
+        <img src="images/grad.jpg" alt="photo">
+    </div>
+
+    <h2>Latest Projects</h2>
+    <div class="projects">
+        <!-- Dynamically added content will appear here -->
+    </div>
+
+    <div id="profile-stats"></div>
+
 </body>
 </html>
