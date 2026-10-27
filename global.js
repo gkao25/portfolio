@@ -95,6 +95,8 @@ form?.addEventListener('submit', function (event) {
     location.href = url;
 });
 
+
+// render projects
 export async function fetchJSON(url) {
     try {
         // Fetch the JSON file from the given URL
@@ -115,14 +117,18 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
   for (const project of projects) {
     const article = document.createElement('article');
     article.innerHTML = `
-      <${headingLevel}>${project.title}</${headingLevel}>
-      <img src="${project.image}" alt="${project.title}">
-      <p>${project.description}</p>
+        <${headingLevel}>${project.title}</${headingLevel}>
+        <p>Year: ${project.year}</p>
+        <img src="${project.image}" alt="${project.title}">
+        <p>${project.description}</p>
+        <a href="${project.link}" target="_blank">View project</a>
     `;
     containerElement.appendChild(article);
   }
 }
 
+
+// fetch github profile stats for homepage
 export async function fetchGitHubData(username) {
     return fetchJSON(`https://api.github.com/users/${username}`);
 }

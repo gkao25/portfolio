@@ -64,12 +64,12 @@ nav {
   flex: 1;
 }
 
-a, a:link, a:visited {
+nav a, a:link, a:visited {
   color: inherit;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
   border-bottom-color: var(--accent-color);
@@ -110,6 +110,18 @@ button {
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1.5em;
+}
+
+.projects img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+
+.projects a {
+  color: blue;
+  text-decoration: underline;
 }
 
 article {
@@ -134,4 +146,22 @@ article {
   flex: 1;
   height: 1px;
   background-color: oklch(80% 3% 200);
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 2em;
 }

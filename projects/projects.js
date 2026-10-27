@@ -5,4 +5,4 @@ const projectsContainer = document.querySelector('.projects');
 renderProjects(projects, projectsContainer, 'h2');
 // add project count to header
 const title = document.querySelector('.projects-title');
-title.textContent = `${projects.length} Projects`;
+title.textContent = `Projects (${projects.length})`;

@@ -1,28 +1,37 @@
 [
     {
         "title": "Persuasive or Deceptive Visualization?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "DSC 209R Project 2, practicing deceptive techniques in data visualization."
+        "year": "2026",
+        "image": "../images/persuasive.png",
+        "description": "Is China really the most responsible country for the world's CO2 emission? The statement can be true or not depending on the visualization. This project practices using deceptive techniques in data visualization."
     },
     {
-        "title": "Aliquid nemo in nihil?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Repudiandae aut tempora ipsum quaerat ipsam ex atque odit qui. Fuga blanditiis quia, rerum iusto at cumque voluptatibus ad tempora quam, ipsum impedit esse veritatis similique pariatur vitae modi. Esse?"
+        "title": "Grocery Store Price Comparison",
+        "year": "2026",
+        "image": "../images/processed_food.png",
+        "description": "Between Target, Walmart, and Whole Foods, people tend to think that Whole Foods is the most expensive yet also the healthiest grocery store — is that really true?",
+        "link": "https://github.com/gkao25/grocerydb-viz/blob/a07eab20c03f9f51be14d5d883040be50e7a66e0/Project%201.pdf"
     },
     {
-        "title": "Cum et quas ducimus?",
+        "title": "Reddit Post Subreddit Prediction",
+        "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sed facilis, illum repellat est pariatur totam vel ab eius maiores impedit, dolore recusandae expedita libero commodi explicabo deleniti enim harum, repudiandae exercitationem quasi eligendi. Blanditiis nihil qui vero totam!"
+        "description": "Group project for DSC 232R, which practices using distributed computing to train a classification model.",
+        "link": "https://github.com/gkao25/dsc-232r-project"
     },
     {
-        "title": "Molestiae dignissimos rem et?",
+        "title": "How much does CO2 emission affect climate change?",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Inventore ea sapiente dolor quis necessitatibus temporibus cumque, laboriosam, minus quos expedita rem, quia officiis fugit nam id? Magni id dicta minima enim fuga impedit sequi maiores. Quasi, in delectus!"
+        "description": "Explore a potential cause of one of the temperature changes, greenhouse gas emission, through interactive data visualizaiton.",
+        "link": "https://gkao25.github.io/dsc106-final-project/"
     },
     {
-        "title": "Praesentium ab eligendi dolor?",
+        "title": "Wildfire Risk Assessment and Mitigation",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ipsum labore maxime fugit totam quo debitis consectetur, assumenda iste a praesentium corporis ducimus, facilis, voluptatem quasi ullam nobis! Rerum, tempora. Aliquid incidunt maiores magni quis, modi non eum debitis!"
+        "description": "Wildfire Risk Assessment and Mitigation report in collaboration with SDG&E.",
+        "link": "https://github.com/gkao25/wildfire-mitigation-report"
     },
     {
         "title": "Aperiam, consequatur consequuntur? Recusandae.",
