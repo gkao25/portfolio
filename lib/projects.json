@@ -2,13 +2,14 @@
     {
         "title": "Persuasive or Deceptive Visualization?",
         "year": "2026",
-        "image": "../images/persuasive.png",
-        "description": "Is China really the most responsible country for the world's CO2 emission? This project practices using deceptive techniques in data visualization to (dis)prove this proposition."
+        "image": "images/persuasive.png",
+        "description": "Is China really the most responsible country for the world's CO2 emission? This project practices using deceptive techniques in data visualization to (dis)prove this proposition.",
+        "link": "https://gkao25.github.io/dsc209-project2/"
     },
     {
         "title": "Grocery Store Price Comparison",
         "year": "2026",
-        "image": "../images/processed_food.png",
+        "image": "images/processed_food.png",
         "description": "Between Target, Walmart, and Whole Foods, people tend to think that Whole Foods is the most expensive yet also the healthiest grocery store — is that really true?",
         "link": "https://github.com/gkao25/grocerydb-viz/blob/a07eab20c03f9f51be14d5d883040be50e7a66e0/Project%201.pdf"
     },
