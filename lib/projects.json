@@ -3,7 +3,7 @@
         "title": "Persuasive or Deceptive Visualization?",
         "year": "2026",
         "image": "../images/persuasive.png",
-        "description": "Is China really the most responsible country for the world's CO2 emission? The statement can be true or not depending on the visualization. This project practices using deceptive techniques in data visualization."
+        "description": "Is China really the most responsible country for the world's CO2 emission? This project practices using deceptive techniques in data visualization to (dis)prove this proposition."
     },
     {
         "title": "Grocery Store Price Comparison",
@@ -16,7 +16,7 @@
         "title": "Reddit Post Subreddit Prediction",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Group project for DSC 232R, which practices using distributed computing to train a classification model.",
+        "description": "Group project for DSC 232R, which practices using distributed computing to analyze and train a classification model.",
         "link": "https://github.com/gkao25/dsc-232r-project"
     },
     {
@@ -27,6 +27,13 @@
         "link": "https://gkao25.github.io/dsc106-final-project/"
     },
     {
+        "title": "ILLNESS, An Alternative Way To Assess Wildfire Risk",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "UCSD Data Science Capstone Project. The ILLNESS Model is a multi-factor machine learning model designed to enhance the accuracy of PSPS decisions in order to mitigate wildfire risks.",
+        "link": "https://gkao25.github.io/dsc180b-illness-score/"
+    },
+    {
         "title": "Wildfire Risk Assessment and Mitigation",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -34,38 +41,45 @@
         "link": "https://github.com/gkao25/wildfire-mitigation-report"
     },
     {
-        "title": "Aperiam, consequatur consequuntur? Recusandae.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Hic repudiandae suscipit minus laboriosam qui deserunt distinctio adipisci, sunt tenetur vitae omnis! Assumenda incidunt quisquam sed placeat delectus iste ea. Perferendis temporibus quo ut a, minus asperiores iste saepe."
-    },
-    {
         "title": "Nam quasi pariatur temporibus.",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Hic, labore. Fuga maxime vitae placeat iusto id illo ipsum molestias perspiciatis molestiae modi, in nemo dolorem voluptatibus nobis maiores omnis porro est libero quas? Odio ad aliquid enim ut."
+        "description": "Hic, labore. Fuga maxime vitae placeat iusto id illo ipsum molestias perspiciatis molestiae modi, in nemo dolorem voluptatibus nobis maiores omnis porro est libero quas? Odio ad aliquid enim ut.",
+        "link": ""
     },
     {
         "title": "Voluptas totam nisi perspiciatis.",
+        "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Earum qui perspiciatis provident, error molestias voluptatem id laboriosam pariatur nemo, facere vel sapiente voluptatibus? Quo odit enim dolores sint nesciunt? Repellat, soluta deserunt. Laudantium facere tempora saepe nemo magni."
+        "description": "Earum qui perspiciatis provident, error molestias voluptatem id laboriosam pariatur nemo, facere vel sapiente voluptatibus? Quo odit enim dolores sint nesciunt? Repellat, soluta deserunt. Laudantium facere tempora saepe nemo magni.",
+        "link": ""
     },
     {
         "title": "Repellat quidem dignissimos error.",
+        "year": "2021",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Id, distinctio! Animi deserunt beatae magni sapiente quibusdam aut quos labore minus quo hic aspernatur numquam sed nisi, illo iusto. Sed ad laborum nemo corporis vero rerum repudiandae ex cumque."
+        "description": "Id, distinctio! Animi deserunt beatae magni sapiente quibusdam aut quos labore minus quo hic aspernatur numquam sed nisi, illo iusto. Sed ad laborum nemo corporis vero rerum repudiandae ex cumque.",
+        "link": ""
     },
     {
         "title": "Tenetur veritatis magnam iste.",
+        "year": "2021",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dicta aut laboriosam sint voluptate architecto necessitatibus reprehenderit inventore est illum voluptatibus, vitae, sunt libero deserunt exercitationem ab eveniet ullam quidem rerum quibusdam id! Magnam, quod? Accusamus explicabo quasi doloremque?"
+        "description": "Dicta aut laboriosam sint voluptate architecto necessitatibus reprehenderit inventore est illum voluptatibus, vitae, sunt libero deserunt exercitationem ab eveniet ullam quidem rerum quibusdam id! Magnam, quod? Accusamus explicabo quasi doloremque?",
+        "link": ""
     },
     {
         "title": "Officia minus culpa tempore!",
+        "year": "2021",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Velit mollitia quod ex voluptates, voluptatum deleniti, totam dolore, voluptas voluptate porro quidem sint! Aspernatur quaerat, saepe eos modi recusandae dicta dolorem reprehenderit, sed consequuntur rem aliquid officia! Quidem, optio?"
+        "description": "Velit mollitia quod ex voluptates, voluptatum deleniti, totam dolore, voluptas voluptate porro quidem sint! Aspernatur quaerat, saepe eos modi recusandae dicta dolorem reprehenderit, sed consequuntur rem aliquid officia! Quidem, optio?",
+        "link": ""
     },
     {
         "title": "Vitae mollitia earum libero!",
+        "year": "2020",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Cumque eum explicabo odit consequuntur rem omnis corporis dicta reprehenderit recusandae officiis animi iure corrupti pariatur ipsam fugiat distinctio, facere ab error! Totam architecto recusandae earum iure reiciendis porro facere!"
+        "description": "Cumque eum explicabo odit consequuntur rem omnis corporis dicta reprehenderit recusandae officiis animi iure corrupti pariatur ipsam fugiat distinctio, facere ab error! Totam architecto recusandae earum iure reiciendis porro facere!",
+        "link": ""
     }
 ]
