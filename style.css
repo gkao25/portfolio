@@ -9,7 +9,7 @@ body {
 	 */
   font: 100%/1.5 system-ui;
   max-width: 150ch;
-  margin-inline: max(1em, (100% - 100ch) / 2);
+  margin-inline: max(1em, (100% - 100ch) / 3);
   padding: 30px;
 }
 
@@ -358,6 +358,7 @@ circle.selected {
 #files {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  column-gap: 1em;
 
   > div {
     grid-column: 1 / -1;
@@ -407,7 +408,6 @@ circle.selected {
 
 #scatter-story {
   position: relative;
-  flex: 1;
 }
 
 #scatter-plot {
@@ -416,9 +416,30 @@ circle.selected {
   left: 0;
   bottom: auto;
   height: 60vh;
-  flex: 2;
 }
 
 .step {
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
+}
+
+#scrolly-2 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row-reverse;
+}
+
+#scrolly-2 > * {
+  flex: 1;
+}
+
+#files-story {
+  position: relative;
+}
+
+#files-plot {
+  position: sticky;
+  top: 2em;
+  height: 80vh;
+  overflow-y: auto;
 }

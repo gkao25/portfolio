@@ -43,7 +43,8 @@ function processCommits(data) {
       });
 
       return ret;
-    });
+    })
+    .sort((a, b) => a.datetime - b.datetime);
 }
 
 function renderCommitInfo(data, commits) {
@@ -420,6 +421,7 @@ function updateScatterPlot(data, commits) {
     });
 }
 
+// scrolly for main plot
 d3.select("#scatter-story")
   .selectAll(".step")
   .data(commits)
@@ -462,3 +464,40 @@ scroller
     step: "#scrolly-1 .step",
   })
   .onStepEnter(onStepEnter);
+
+// scrolly unit file plots
+d3.select("#files-story")
+  .selectAll(".step")
+  .data(commits)
+  .join("div")
+  .attr("class", "step")
+  .html(
+    (d) => `
+      On ${d.datetime.toLocaleString("en", {
+        dateStyle: "full",
+        timeStyle: "short",
+      })},
+      I edited ${d.totalLines} lines across ${
+        d3.rollups(
+          d.lines,
+          (D) => D.length,
+          (d) => d.file,
+        ).length
+      } files.
+      Here is how big each file was at that point.
+    `,
+  );
+
+function onFileStepEnter(response) {
+  const commit = response.element.__data__;
+  const commitsSoFar = commits.filter((d) => d.datetime <= commit.datetime);
+  updateFileDisplay(commitsSoFar);
+}
+
+const fileScroller = scrollama();
+fileScroller
+  .setup({
+    container: "#scrolly-2",
+    step: "#scrolly-2 .step",
+  })
+  .onStepEnter(onFileStepEnter);
